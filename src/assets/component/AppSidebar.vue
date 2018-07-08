@@ -1,0 +1,33 @@
+<template>
+  
+    <div class="col-sm-3 col-md-2 sidebar">
+        <ul class="nav nav-sidebar">
+            <router-link tag="li" to="/hero">
+                <a>英雄列表</a>
+            </router-link> 
+            <router-link tag="li" to="/weapon">
+                <a>装备列表</a>
+            </router-link> 
+            <router-link tag="li" to="/equip">
+                <a>武器列表</a>
+            </router-link>
+        </ul>
+    </div>
+    
+</template>
+
+
+<script>
+// 导出模块
+export default {
+    data() {
+        return {
+            
+        }
+    }
+}
+</script>
+
+<style>
+
+</style>
