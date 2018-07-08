@@ -64,7 +64,7 @@ export default {
             axios
                 .delete(`http://localhost:3000/users/${id}`)
                 .then((res)=>{
-                    if (status === 200) {
+                    if (res.status === 200) {
                         // 删除成功  重新渲染
                         this.loadData();
                     } else {

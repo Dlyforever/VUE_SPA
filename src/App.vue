@@ -27,13 +27,17 @@
 <script>
 
 // 导入头部 import AppHeader
-import AppHeader from './components/AppHeader.vue';
+import AppHeader from './component/AppHeader.vue';
 // 导入  Appsidebar
-import AppSidebar  from './components/AppSidebar.vue';
+import AppSidebar  from './component/AppSidebar.vue';
 
 export default {
+   name:'App',
   data () {
-    name:'App'
+    return {
+      msg: 'Welcome to Your Vue.js App'
+    }
+    
   },
   components: {
     AppHeader,
