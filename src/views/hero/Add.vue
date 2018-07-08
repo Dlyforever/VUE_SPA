@@ -35,7 +35,7 @@ export default {
     }
   },
   methods: {
-    handleAdd() {
+    handleAdd () {
       axios
           .post('http://localhost:3000/users',this.formData)
           .then((res)=>{
